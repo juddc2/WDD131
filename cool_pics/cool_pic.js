@@ -14,12 +14,13 @@ function handleResize() {
     }
   }
   function viewerTemplate(pic, alt) {
-    return `<div class="viewer">
+    return <div class="viewer">
       <button class="close-viewer">X</button>
-      <img src="${pic}" alt="${alt}">
-      </div>`;
+      <img src="norris-full.jpeg"></img>
+      </div>;
   }
   handleResize();
   window.addEventListener("resize", handleResize);
   
-  
+  viewHandler()
+  window.addEventListener("viewer", viewHandler)
