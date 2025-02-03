@@ -14,11 +14,22 @@ function handleResize() {
     }
   }
   function viewerTemplate(pic, alt) {
-    return <div class="viewer">
+    let html =
+      <div class="viewer">
       <button class="close-viewer">X</button>
       <img src="norris-full.jpeg"></img>
       </div>;
+    return html
   }
+  viewHandler(event);{
+const img = event.target.closte("img");
+let attribute=img.getAttribute('src');
+let beg=attribute.split("-");
+let full=beg[0] + '-full.jpeg';
+console.log(full);
+let body=document.querySelector('body');
+let html=viewerTemplate(full, 'random image');
+}
   handleResize();
   window.addEventListener("resize", handleResize);
   
