@@ -1,3 +1,4 @@
+const articleContainer = document.querySelector('#maincontent');
 const articles = [
 	{
 	id: 1,
@@ -41,18 +42,21 @@ const articles = [
 
 articles.forEach(item => {
 		const infodiv = document.createElement('div');
-		infodiv.classlist.add('articleinfo');
+		infodiv.classList.add('articleinfo');
 		infodiv.innerHTML = `
 		<h2 class="book-title">${item.title}
-		<img src"${item.imgSrc}" alt="${item.imgALT}">
+		<img src="${item.imgSrc}" alt="${item.imgAlt}">
 		<p class="despription">${item.description}</p>`
 		const statdiv = document.createElement('div');
-		statdiv.classList.add(articlestat)
+		statdiv.classList.add('articlestat')
 		statdiv.innerHTML =`
-		<h2 class="id"${item.id}
-		<h2 class="ages">${item.ages}
-		<h2 class"date"${item.date}
-		<h2 class="genre"${item.genre}
-		<h2 class="stars"${item.stars}
-		`
+		<h2 class="ages">${item.ages}</h2>
+		<h2 class="date">${item.date}</h2>
+		<h2 class="genre">${item.genre}</h2>
+		<h2 class="stars">${item.stars}</h2>
+		`;
+		articleContainer.appendChild(statdiv);
+		articleContainer.appendChild(infodiv);
+		
 });
+

@@ -8,6 +8,13 @@ header{
    justify-items: center;
 }
 main{
-    justify-items: center;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:1fr 1fr;
     
 }
+@media screen and (min-width: 1000px){
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+} 
