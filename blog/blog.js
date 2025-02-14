@@ -9,7 +9,7 @@ const articles = [
 	imgAlt: "Book cover for Septimus Heap 1",
 	ages: "10-14",
 	genre: "Fantasy",
-	stars: "****"
+	stars: "⭐⭐⭐⭐"
 	},
 	{
 	id: 2,
@@ -29,7 +29,7 @@ const articles = [
 	title: "Belgariad Book One: Pawn of Prophecy",
 	date: "Feb 12, 2022",
 	description:
-	"A fierce dispute among the Gods and the theft of a powerful Orb leaves the World divided into five kingdoms. Young Garion, with his ",Aunt, Pol," and an elderly man calling himself Wolf --a father and daughter granted near-immortality by one of the Gods -- set out on a complex mission.",
+	"A fierce dispute among the Gods and the theft of a powerful Orb leaves the World divided into five kingdoms. Young Garion, with his 'Aunt Pol' and an elderly man calling himself Wolf --a father and daughter granted near-immortality by one of the Gods -- set out on a complex mission.",
 	imgSrc:
 	"https://images-na.ssl-images-amazon.com/images/I/41ZxXA+nInL.jpg",
 	imgAlt: "Book cover for Pawn of Prophecy",
@@ -37,4 +37,22 @@ const articles = [
 	genre: "Fantasy",
 	stars: "⭐⭐⭐⭐⭐"
 	}
-	];
+];
+
+articles.forEach(item => {
+		const infodiv = document.createElement('div');
+		infodiv.classlist.add('articleinfo');
+		infodiv.innerHTML = `
+		<h2 class="book-title">${item.title}
+		<img src"${item.imgSrc}" alt="${item.imgALT}">
+		<p class="despription">${item.description}</p>`
+		const statdiv = document.createElement('div');
+		statdiv.classList.add(articlestat)
+		statdiv.innerHTML =`
+		<h2 class="id"${item.id}
+		<h2 class="ages">${item.ages}
+		<h2 class"date"${item.date}
+		<h2 class="genre"${item.genre}
+		<h2 class="stars"${item.stars}
+		`
+});
