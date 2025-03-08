@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=family=Amatic+SC&display=swap");
+body {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+header h1 {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+header img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.search-bar input {
+    border: none;
+    padding: 8px;
+    outline: none;
+}
+
+.search-bar button {
+    border: none;
+    background: white;
+    cursor: pointer;
+    padding: 8px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.recipe-card {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 600px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-card img {
+    width: 50%;
+    object-fit: cover;
+}
+
+.recipe-info {
+    padding: 15px;
+    width: 50%;
+}
+
+.category {
+    background: #eee;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.recipe-info h2 {
+    color: #4682B4;
+}
+
+.rating {
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+	color:blue;
+}
+
+.social-icons img {
+    width: 25px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+@media (min-width: 600px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    #search {
+        width: 300px;
+    }
+
+    .recipe-card {
+        display: flex;
+        align-items: center;
+        width: 60%;
+        max-width: 800px;
+    }
+
+    .recipe-card img {
+        width: 50%;
+    }
+
+    .recipe-info {
+        flex: 1;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .social-icons {
+        display: flex;
+        gap: 10px;
+    }
+}
