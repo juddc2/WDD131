@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    background-color: #120E02;
+}
+a{
+        background-color: #A43312;
+			border: none;
+			color: white;
+			padding: 10px 20px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 4px 2px;
+			cursor: pointer;
+			border-radius: 4px;
+}
