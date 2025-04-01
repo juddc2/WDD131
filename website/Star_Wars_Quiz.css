@@ -3,6 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 1000px;
+    width: 1500px;
     background-color: #120E02;
     display: flex;
 }
