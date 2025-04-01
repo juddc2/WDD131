@@ -1,6 +1,6 @@
 const questions = [
     {
-        question: "What Admiral in the rebellion, a member of the Mon Calamari race, famously exclaimed “It’s a trap!” during the climactic space battle at the end of “Return Of The Jedi?”",
+        question: "1. What Admiral in the rebellion, a member of the Mon Calamari race, famously exclaimed “It’s a trap!” during the climactic space battle at the end of “Return Of The Jedi?”",
         answers: [
             { text: "Han Solo", correct: false },
             { text: "Admiral Ackbar", correct: true },
@@ -8,7 +8,7 @@ const questions = [
         ]
     },
     {
-        question: "Who was the first character to speak in the first Star Wars movie?",
+        question: "2. Who was the first character to speak in the first Star Wars movie?",
         answers: [
             { text: "R2-D2", correct: false },
             { text: "Princess Leia", correct: false },
@@ -16,7 +16,7 @@ const questions = [
         ]
     },
     {
-        question: "Clocking in at 2 hours and 32 minutes (according to its IMDB.com runtime), which of the 9 movies in the Skywalker Saga is the longest?",
+        question: "3. Clocking in at 2 hours and 32 minutes (according to its IMDB.com runtime), which of the 9 movies in the Skywalker Saga is the longest?",
         answers: [
             { text: "The Last Jedi", correct: true },
             { text: "A New Hope", correct: false },
@@ -24,7 +24,7 @@ const questions = [
         ]
     },
     {
-        question: "What is Kylo Ren’s real name?",
+        question: "4. What is Kylo Ren’s real name?",
         answers: [
             { text: "Zack Solo", correct: false },
             { text: "Ben Solo", correct: true },
@@ -32,7 +32,7 @@ const questions = [
         ]
     },
     {
-        question: "How many languages does C3PO claim to speak?",
+        question: "5. How many languages does C3PO claim to speak?",
         answers: [
             { text: "100", correct: false },
             { text: "Over 6,000,000", correct: true },
