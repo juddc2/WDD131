@@ -36,7 +36,7 @@ const questions = [
         answers: [
             { text: "100", correct: false },
             { text: "Over 6,000,000", correct: true },
-            { text: "over 100,000", correct: false }
+            { text: "Over 100,000", correct: false }
         ]
     }
 ];
