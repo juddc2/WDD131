@@ -43,8 +43,8 @@ const questions = [
         question: "6. What year was Return of the Jedi released?",
         answers: [
             { text: "1976", correct: false },
-            { text: "Over 1983", correct: true },
-            { text: "Over 1995", correct: false }
+            { text: "1983", correct: true },
+            { text: "1995", correct: false }
         ]
     },
     {
