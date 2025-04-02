@@ -38,7 +38,48 @@ const questions = [
             { text: "Over 6,000,000", correct: true },
             { text: "Over 100,000", correct: false }
         ]
-    }
+    },
+    {
+        question: "6. What year was Return of the Jedi released?",
+        answers: [
+            { text: "1976", correct: false },
+            { text: "Over 1983", correct: true },
+            { text: "Over 1995", correct: false }
+        ]
+    },
+    {
+        question: "7. Which strange creature did Luke find on Dagobah?",
+        answers: [
+            { text: "Yoda", correct: true },
+            { text: "Jabba the Hut", correct: false },
+            { text: "An Ewok", correct: false }
+        ]
+    },
+    {
+        question: "8. What is Finn's stormtrooper number?",
+        answers: [
+            { text: "FN-2187", correct: true },
+            { text: "FN-2145", correct: false },
+            { text: "FN-2167", correct: false }
+        ]
+    },
+    {
+        question: "9. How is Rey related to Palpatine?",
+        answers: [
+            { text: "She isn't", correct: false },
+            { text: "She is his granddaughter", correct: true },
+            { text: "She is his niece", correct: false }
+        ]
+    },
+    {
+        question: "10. What is the birth planet of Han Solo?",
+        answers: [
+            { text: "Corellia", correct: true },
+            { text: "Tatooine", correct: false },
+            { text: "Devaron", correct: false }
+        ]
+    },
+   
 ];
 
 const questionElement = document.getElementById("question");
